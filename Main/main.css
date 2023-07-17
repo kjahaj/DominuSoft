@@ -100,22 +100,22 @@ html {
     }
     
     .sectionA p {
-      font-size: 23px;
-      
+      font-size: 22px;
+      width: 1500px;
       line-height: 1.5;
       float: left;
       padding-right: 200px;
     }
   
     .sectionA b {
-      font-size: 35px;
+      font-size: 30px;
     }
     
     .sectionA img {
-      max-width: 400px;
+      max-width: 350px;
       height: auto;
       margin-bottom: 20px;
-      border-radius: 50%;
+      border-radius: 30%;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       float: right;
       margin-right: 150px;
@@ -155,9 +155,8 @@ html {
     line-height: 1.8;
   }
   
-  
   .container {
-    padding-inline: 15px;
+    padding-left: -10px;
   }
   
   .btn {
