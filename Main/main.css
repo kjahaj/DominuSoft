@@ -68,58 +68,78 @@ html {
   }
 
 /*About*/
-  .containerA {
-      color: black;
-      text-align: center;
-      padding: 200px; 
-     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    }
-    
-    h1 {
-      margin: 0; 
-      font-size: 45px;
-    }
-    
-    .containerA {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 40px;
-    }
-    
-    .sectionA {
-    margin: 30px;
-    display: flex;
-    flex-direction: row;
+.containerA {
+  color: black;
+  text-align: center;
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 45px;
+}
+
+.containerA {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.sectionA {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  background-color: transparent;
+}
+
+.sectionA p {
+  font-size: 22px;
+  width: 100%;
+  line-height: 1.5;
+  padding-right: 200px;
+}
+
+.sectionA b {
+  font-size: 30px;
+}
+
+.sectionA img {
+  max-width: 350px;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .sectionA {
+    flex-direction: column;
     text-align: center;
-    color: black;
-    background-color: transparent;
-    }
-    
-    .sectionA p {
-      font-size: 22px;
-      width: 1500px;
-      line-height: 1.5;
-      float: left;
-      padding-right: 200px;
-    }
-  
-    .sectionA b {
-      font-size: 30px;
-    }
-    
-    .sectionA img {
-      max-width: 350px;
-      height: auto;
-      margin-bottom: 20px;
-      border-radius: 30%;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      float: right;
-      margin-right: 150px;
-    }
+  }
+
+  .sectionA img {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+
+  .sectionA p {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+
+
     
     
   
