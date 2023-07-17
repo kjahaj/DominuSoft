@@ -1,3 +1,12 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(beige,white);
+}
+
+/*Navbar*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .logo{
@@ -58,14 +67,66 @@
 	}
   }
 
+/*About*/
+  .containerA {
+      color: black;
+      text-align: center;
+      padding: 200px; 
+     background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    h1 {
+      margin: 0; 
+      font-size: 45px;
+    }
+    
+    .containerA {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+    
+    .sectionA {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    }
+    
+    .sectionA p {
+      font-size: 23px;
+      
+      line-height: 1.5;
+      float: left;
+      padding-right: 200px;
+    }
   
-html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    scroll-behavior: smooth;
-    background-image: linear-gradient(beige,white);
-  }
+    .sectionA b {
+      font-size: 35px;
+    }
+    
+    .sectionA img {
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      float: right;
+      margin-right: 150px;
+    }
+    
+    
   
+
+
+
+/*Projects*/  
   
   *,
   *::before,
