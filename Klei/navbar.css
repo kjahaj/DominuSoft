@@ -39,7 +39,12 @@
 	height: 30px;
 	width: 30px;
 	margin-right: 5px;
-}
+}  
+.sandwich{
+	display: none;
+	width: 100px;
+	height: 50px;
+  }
 
 @media (max-width: 680px) {
 	.navbar {
@@ -51,9 +56,14 @@
 	  align-items: center;
 	  margin-right: 0;
 	  margin-top: 10px;
+	  display: none;
 	}
 
 	.links{
 		margin-bottom: 10px;
 	}
+	.sandwich{
+		display: block;
+	}
   }
+
