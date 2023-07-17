@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 .logo{
 	height: 125px;
 	width: 125px;
@@ -9,7 +11,6 @@
 	justify-content: space-between;
 	align-items: center;
 	background-image: linear-gradient(beige,white);
-
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -17,18 +18,11 @@
     text-decoration: none;
     color: black;
 	font-size: larger;
-    /* transition: border-bottom 0.3s ease; */
 	display: flex;
 }
 
-.links:hover .icon{
-    /* border-bottom: 1px solid black; */
-	/* width: 35px;
-	height: 35px; */
-}
 
 .links:hover{
-	/* font-size: large; */
 	background-color: #C4A484;
 	padding: 10px;
 	
@@ -47,7 +41,7 @@
 	margin-right: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 680px) {
 	.navbar {
 	  flex-direction: column;
 	}
