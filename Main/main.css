@@ -1,3 +1,12 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(beige,white);
+}
+
+/*Navbar*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .logo{
@@ -10,7 +19,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-image: linear-gradient(beige,white);
+  background-image: linear-gradient(beige,rgb(225, 225, 194));
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -58,13 +67,86 @@
 	}
   }
 
-  
-html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    scroll-behavior: smooth;
+/*About*/
+.containerA {
+  color: black;
+  text-align: center;
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 45px;
+}
+
+.containerA {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.sectionA {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  background-color: transparent;
+}
+
+.sectionA p {
+  font-size: 22px;
+  width: 100%;
+  line-height: 1.5;
+  padding-right: 200px;
+}
+
+.sectionA b {
+  font-size: 30px;
+}
+
+.sectionA img {
+  max-width: 350px;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .sectionA {
+    flex-direction: column;
+    text-align: center;
   }
+
+  .sectionA img {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+
+  .sectionA p {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+
+
+    
+    
   
+
+
+
+/*Projects*/  
   
   *,
   *::before,
@@ -89,14 +171,12 @@ html {
   }
   
   body {
-    background-image: linear-gradient(beige,white);
     font-size: 1.6rem;
     line-height: 1.8;
   }
   
-  
   .container {
-    padding-inline: 15px;
+    padding-left: -10px;
   }
   
   .btn {
