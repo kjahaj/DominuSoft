@@ -79,6 +79,7 @@ html {
 
 .about{
   margin: 30px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -95,8 +96,8 @@ html {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   float: none;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 150px;
+  margin-left: 100px;
   margin-bottom: 30px;
 }
 
