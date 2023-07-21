@@ -84,4 +84,10 @@
     flex: 0 0 calc(100% - 20px);
     scroll-snap-align: start;
   }
+
+  .service-logo {
+    margin-top: 10%; 
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
