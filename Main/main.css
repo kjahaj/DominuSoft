@@ -76,7 +76,15 @@ html {
 	}
   }
 
+/*banner*/
+.banner img{
+  width: 65%;
+  margin-left: 300px;
+}
 
+
+
+/*about*/
 .about{
   margin: 30px;
   margin-top: 50px;
@@ -112,11 +120,13 @@ html {
 .h2-about{
   font-size: 35px;
   text-align: left;
+  color:#e74c3c;
 }
 
 .h3-about{
   font-size: 25px;
   text-align: left;
+  color:#e74c3c;
 }
 
 @media (max-width: 768px) {
@@ -192,7 +202,7 @@ html {
   
   .h2,
   .h3 {
-    color: black;
+    color:#e74c3c;
     line-height: 1.2;
   }
   
