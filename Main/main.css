@@ -76,9 +76,27 @@ html {
 	}
   }
 
+/* Banner */
+.banner img {
+  width: 65%;
+  margin-left: 300px;
+}
 
+@media (max-width: 768px) {
+  .banner img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+
+/*about*/
 .about{
   margin: 30px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -95,8 +113,8 @@ html {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   float: none;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 150px;
+  margin-left: 100px;
   margin-bottom: 30px;
 }
 
@@ -111,11 +129,13 @@ html {
 .h2-about{
   font-size: 35px;
   text-align: left;
+  color:#e74c3c;
 }
 
 .h3-about{
   font-size: 25px;
   text-align: left;
+  color:#e74c3c;
 }
 
 @media (max-width: 768px) {
@@ -191,7 +211,7 @@ html {
   
   .h2,
   .h3 {
-    color: black;
+    color:#e74c3c;
     line-height: 1.2;
   }
   
