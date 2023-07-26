@@ -3,7 +3,7 @@ let sandwich = document.getElementsByClassName("sandwich")[0];
         
 function sandwichIcon() {
     if (mainDiv.style.display == "none") {
-        mainDiv.style.display = "block";
+        mainDiv.style.display = "flex";
     } else {
         mainDiv.style.display = "none";
     }
