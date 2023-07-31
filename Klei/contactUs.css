@@ -95,14 +95,13 @@
     justify-content: left;  
 }
  #map,
-  #contact-form {
+  .contact-form {
     margin: 10px;
 
   }
-#contact-form{
-    padding-left: 270px;
+#map{
+  display: flex;
 }
-
 .form-input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -193,5 +192,21 @@
 
   .myForm{
     padding: 10px;
+  }
+  .contact-form{
+    width: 900px;
+  }
+
+}
+
+@media (min-width:1000px) {
+  #map{
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px){
+  .contact-form{
+    width: 710px;
   }
 }

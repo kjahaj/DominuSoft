@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <link rel="stylesheet" type="text/css" href="contactUs.css">
     <title>Contact Us</title>
@@ -53,36 +53,35 @@
       <h1 id="physical-addr">Or come to our physical office</h1>
       <div class="location">
             <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.3231677132544!2d19.812061275855026!3d41.32358557130806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350313540c99c4b%3A0x7398d6f11582ba30!2sDominusoft!5e0!3m2!1sen!2s!4v1689940236240!5m2!1sen!2s" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.3231677132544!2d19.812061275855026!3d41.32358557130806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350313540c99c4b%3A0x7398d6f11582ba30!2sDominusoft!5e0!3m2!1sen!2s!4v1689940236240!5m2!1sen!2s" width="920" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="contact-form">
                 <h4 id="info">Give us your information and we will contact you!</h4>
                 <form  name="myform" class="myForm">    
 
 
-                    <span id=""><br></span>
-                    <label for="fname">First Name</label>
+                    <span id="error-name"></span>
+                    <label for="fname"><br>First Name</label>
                     <input class="form-input" type="text" id="fname" name="firstname" placeholder="Your name...">
                     
               
                   
-              
-                  <label for="lname">Last Name</label>
-                  <input class="form-input" type="text" id="lname" name="lastname" placeholder="Your last name...">
+                    <span id="lastname-error"></span>
+                    <label for="lname"><br>Last Name</label>
+                    <input class="form-input" type="text" id="lname" name="lastname" placeholder="Your last name...">
                 
                 
-            
-                  <label for="email">Email</label>
-                  <input class="form-input" type="text" id="email" name="email" placeholder="Your email...">
-                
+                    <span id="email-error"></span>
+                    <label for="email"><br>Email</label>
+                    <input class="form-input" type="text" id="email" name="email" placeholder="Your email...">
+                    
 
-                
-                    <label for="email">Message</label>
+                    <span id="message-error"></span>
+                    <label for="message"></label>
                     <textarea name="Message" id="message-area" cols="30" rows="6" placeholder="Leave your message..."></textarea>
-                
 
-
-                  <input class="form-input" id="sub-button"  type="submit" value="Submit" onclick="return validateForm()">
+                  <input class="form-input" id="sub-button"  type="submit" 
+                   value="Submit" onclick="return validateForm()">
                 </form>
               </div>
       </div>
