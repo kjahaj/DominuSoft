@@ -1,12 +1,9 @@
-let mainDiv = document.getElementsByClassName("menu")[0];
-let sandwich = document.getElementsByClassName("sandwich")[0];
-        
-function sandwichIcon() {
-    if (mainDiv.style.display == "none") {
-        mainDiv.style.display = "block";
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    if (menu.style.display === 'none') {
+      menu.style.display = 'flex';
     } else {
-        mainDiv.style.display = "none";
+      menu.style.display = 'none';
     }
-}
-
-sandwich.addEventListener("click", sandwichIcon);
+  }
+  
