@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="contactUs.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="navbar">
+	
+        <div class="image">
+            <img src="contact/logo.png" alt="LOGO" class="logo">
+        </div>
+    
+        <img class="sandwich" src="contact/download.png" alt="presshere">
+        <div class="menu">
+            <a class="links" href="main.html"><img src="Photos/home.png" alt="home" class="icon">Home</a>
+            <a class="links" href="about-page.html"><img src="Photos/about.png" alt="about" class="icon">About</a>
+            <a class="links" href=""><img src="Photos/services.png" alt="Services" class="icon">Services</a>
+            <a class="links" href="portfolio-page.html"><img src="Photos/review.png" alt="review" class="icon">Portfolio</a>
+            <a class="links" href="contact.html"><img src="Photos/contact.png" alt="contact" class="icon">Contact</a>
+        </div>
+        
+    </div>
+    <h1 id="main-text">Contact Us</h1>
+    <br><br><br>
+      <script src="navbar.js"></script>
+
+      <div class="main-contact">
+        <div class="cards" id="first">
+        <img src="contact/costumer-service.png" class="contact-icons" alt="">
+            <h2 id="simple-text"><b>By phone</b></h2>
+            <h5 id="main-text">(Monday to Friday 8AM to 5PM)</h5>
+            <h3 id="simple-text">Our number :</h3>
+            <h3 id="simple-text">+355 123 456 789</h3>
+        </div>
+        <div class="cards" id="second">
+            <img src="contact/email-us.png" class="contact-icons2" alt="">
+            <h2 id="simple-text1"><b>Email us</b></h2>
+            <h3 id="simple-text">Our Email:</h3>
+            <h5 id="main-text">(Maximum of one day response time)</h5>   
+            <h3 id="simple-text">test123@gmail.com</h3>
+        </div>
+        <div class="cards" id="button-holder">
+            <img src="contact/messages.png" class="contact-icons1" alt="">
+            <h2 id="simple-text1"><b>Live message us:</b></h2>
+            <h5 id="main-text">(Response time within seconds in business <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 hours or with a bot in any time)</h5>   
+            <button id="msg-bot">Press here to chat with us</button>
+        </div>
+      </div>
+      <h1 id="physical-addr">Or come to our physical office</h1>
+      <div class="location">
+            <div id="map" class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.3231677132544!2d19.812061275855026!3d41.32358557130806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350313540c99c4b%3A0x7398d6f11582ba30!2sDominusoft!5e0!3m2!1sen!2s!4v1689940236240!5m2!1sen!2s" width="920" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-form">
+                <h4 id="info">Give us your information and we will contact you!</h4>
+                <form  name="myform" class="myForm">    
+
+
+                    <span id="error-name"></span>
+                    <label for="fname"><br>First Name</label>
+                    <input class="form-input" type="text" id="fname" name="firstname" placeholder="Your name...">
+                    
+                    
+                    <span id="lastname-error"></span>
+                    <label for="lname"><br>Last Name</label>
+                    <input class="form-input" type="text" id="lname" name="lastname" placeholder="Your last name...">
+                
+                
+                    <span id="email-error"></span>
+                    <label for="email"><br>Email</label>
+                    <input class="form-input" type="text" id="email" name="email" placeholder="Your email...">
+                    
+
+                    <span id="message-error"></span>
+                    <label for="message"></label>
+                    <textarea name="Message" id="message-area" cols="30" rows="6" placeholder="Leave your message..."></textarea>
+
+                  <input class="form-input" id="sub-button"  type="submit" 
+                   value="Submit" onclick="return validateForm()">
+                </form>
+              </div>
+      </div>
+      
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+            <a href="https://www.instagram.com/conqueror.marketing/"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="main.html">Home</a>
+
+                <a href="about-page.html">About</a>
+
+                <a href="#">Services</a>
+
+                <a href="portfolio-page.html">Portfolio</a>
+
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p>Conqueror Marketing &copy; 2023</p>
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/976afa0984.js" crossorigin="anonymous"></script>
+      <script src="contact.js"></script>
+</body>
+</html>
