@@ -86,17 +86,63 @@ html {
 
 
 /* Banner */
-.banner img {
-  width: 65%;
-  margin-left: 300px;
+.banner{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.banner-left{
+  margin-right: 50px;
+}
+
+
+.banner-right{
+  width: 1000px;
+}
+
+.banner-right h1{
+  font-size: 50px;
+  text-align: center;
+  margin: 20px;
+  color: #e74c3c;
+}
+
+.banner-right h2{
+  font-size: 30px;
+  width: 900px;
+  margin-top: 60px;
+  margin-left: 100px;
+  line-height: 1.7;
+}
+
+.banner video {
+  width: 280px;
+  margin: 10px;
+  margin-left: 50px;
+  max-height: 500px;
 }
 
 @media (max-width: 768px) {
-  .banner img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 400px;
+  .banner{
+    margin: 0px;
+    margin-left: -25px;
+  }
+
+  .banner video{
+    width: 240px;
+  }
+
+  .banner-right{
+    width: 250px;
+    margin-left: 30px;
+    font-size: 40px;
+  }
+
+  .banner-right h2{
+    width: 240px;
+    margin-left: 25px;
+    font-size: 25px;
   }
 }
 
@@ -416,3 +462,106 @@ html {
   }
 }
 
+
+
+/*Footer*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.section-footer {
+  width: 100%;
+  display: inline-block;
+  background: #4d95c2;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+    background: linear-gradient(whitesmoke,beige);
+  box-shadow: 0 1px 1px 0 whitesmoke;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: black;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: orange;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
