@@ -201,14 +201,18 @@
     padding: 10px;
   }
   .contact-form{
-    width: 900px;
+    width: 600px;
+  }
+  #map{
+    width: 630px !important;
+    justify-content: center;
   }
 
 }
 
 @media (min-width:1000px) {
   #map{
-    width: 700px;
+    width: 900px;
   }
 }
 
